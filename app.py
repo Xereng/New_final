@@ -41,7 +41,7 @@ def fetch_remedies(disease_name):
         return f"Error fetching remedies: {e}"
 
 # Streamlit UI
-st.title("Fish Disease Detector using Mobile netv2 model")
+st.title("Fish Disease Detector using MobilenetV2 model")
 
 st.write("""
     Upload an image of a fish to classify whether it is healthy or infected with a disease and get remedies.
