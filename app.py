@@ -10,7 +10,7 @@ GEMINI_API_KEY = "AIzaSyB_vq5Y9ER24NsTCWShsgN-SAATR_zbPg0"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Load the trained model
-MODEL_PATH = "mobilenetv2_fish_disease_model.h5"
+MODEL_PATH = "Detect-Fish-Disease.h5"
 try:
     model = load_model(MODEL_PATH)
     st.success("Model loaded successfully.")
